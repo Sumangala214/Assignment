@@ -1,0 +1,9 @@
+p{color: red;}
+body
+{
+    background-color: blue;
+    background-image:linear-gradient(rgba(255,0,0,0.5),rgba(0,255,0,0.3),rgba(0,0,255,0.4)), url("https://cdn.pixabay.com/photo/2018/11/11/19/46/drip-3809546__480.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+}

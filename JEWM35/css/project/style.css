@@ -1,0 +1,850 @@
+body
+{
+    background: #dedede;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+/* 
+}
+/* html,body
+{
+    width: 100%;
+    overflow-x: hidden;
+    /* background-color: #efefef; */
+/* }  */
+/* .banner
+{
+    /* position: relative; */
+    /* border: 10px solid red; */
+    /* border-color: red; */
+/* } */
+/* .home{
+    /* background-image: linear-gradient(to right,rgba(39,70,133,0.8)0%,rgba(61,179,197,0.8)100%),url(../img/hero-bg.jpg); */
+    /* /* width: 100%;
+    height: 100px;
+}
+
+.home h1{
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white ;
+}
+.home a{
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(192, 183, 183) ;
+}
+.home a:hover{
+
+    color: white ;
+}
+.options{
+    /* position: absolute; */
+    /* /* top: 20px;
+    right: 50px;
+}
+.logo{
+    position: absolute;
+    left: 30px;
+}
+.home nav{
+    background-color: rgba(39, 70, 133, 0.8);
+    /* position: fixed; */
+    /* width: 100%;
+    z-index: 1;
+}
+.drop_down{
+    position: relative;
+}
+.drop_down_contents{
+    visibility: hidden;
+    /* position: absolute; */
+    /* left: 0px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 30px 2px rgba(63, 59, 59, 0.5);
+    border-radius: 10px 10px;
+}
+.drop_down_contents li,ul{
+    list-style: none;
+   padding-top: 10px;
+   padding-left: 10px;
+    font-size: 16px;
+}
+.drop_down_contents:hover {
+    visibility: visible;
+}
+.drop_down:hover .drop_down_contents{
+    visibility: visible;
+}
+.Deep_drop{
+    position: relative;
+    
+}
+.deep_drop_down{
+    visibility: hidden;
+    position: absolute;
+}
+.Deep_drop:hover .deep_drop_down{
+    visibility: visible;
+    right: 250px;
+    width: 170px;
+  top: -10px;
+    background-color: white;
+    box-shadow: 1px 1px 30px 2px rgba(63, 59, 59, 0.5);
+    border-radius: 10px 10px; 
+}  */
+nav
+{
+    background-color: white;
+}
+.home{
+    /* background-image: linear-gradient(to right,rgba(39,70,133,0.8)0%,rgba(61,179,197,0.8)100%),url(../img/hero-bg.jpg); */
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.home h1{
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white ;
+}
+.home a{
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(192, 183, 183) ;
+}
+.home a:hover{
+
+    color: white ;
+}
+.options{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+.logo{
+    position: absolute;
+    left: 30px;
+}
+.home nav{
+    background-color: rgba(39, 70, 133, 0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.drop_down{
+    position: relative;
+}
+.drop_down_contents{
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 30px 2px rgba(63, 59, 59, 0.5);
+    border-radius: 10px 10px;
+}
+.drop_down_contents li,ul{
+    list-style: none;
+   padding-top: 10px;
+   padding-left: 10px;
+    font-size: 16px;
+}
+.drop_down_contents:hover {
+    visibility: visible;
+}
+.drop_down:hover .drop_down_contents{
+    visibility: visible;
+}
+.Deep_drop{
+    position: relative;
+    
+}
+.deep_drop_down{
+    visibility: hidden;
+    position: absolute;
+}
+.Deep_drop:hover .deep_drop_down{
+    visibility: visible;
+    right: 250px;
+    width: 170px;
+  top: -10px;
+    background-color: white;
+    box-shadow: 1px 1px 30px 2px rgba(63, 59, 59, 0.5);
+    border-radius: 10px 10px;
+}
+   
+
+.banner1
+{
+    top: -60px;
+    position: absolute;
+}
+.banner
+{
+    top:-60px ;
+    width: 100%;
+    height: 500px;
+    /* position: relative; */
+    background-image: url(https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg);
+    
+}
+.banner1{
+    /* background-image: url(https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg); */
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    margin: 60px;
+    margin-top: 100px;
+} 
+.banner-head
+{
+  font-size: 48px;
+  font-weight: 700;
+}
+.banner-para
+{
+    font-size: 18px;
+    color:#555555;
+    font-weight: 400;
+}
+.banner-btn
+{
+    background-color:rgb(52, 152, 219);
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+    border-color:rgb(52, 152, 219) ;
+}
+.icon
+{
+    color: rgb(52, 152, 219);
+    /* font-size: 28px; */
+}
+.icon,.span
+{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+/* Services Starts */
+
+.services
+{
+    margin: 50px;
+}
+
+.services-cards .cards
+{
+    height: 220px;
+    width: 200px;
+    padding: 20px;
+    display: inline-block;
+    background-color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 40px 20px rgba(128, 128, 128, 0.137);
+    position: relative;
+    transition: background-color 1s;
+}
+
+.cards .card-content i
+{
+    font-size: 50px;
+    padding: 22px;
+    color: rgb(52, 152, 219);
+}
+
+.cards .card-content h3
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.services-cards .cards:hover i
+{
+
+    color: white;
+}
+
+.div-hover
+{
+    
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: all .5s;
+    
+}
+
+.services-cards .cards:hover .div-hover
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.services-cards .cards:hover
+{
+    background-color:#3498db;
+    color: white;
+}
+
+/* Services Ends */
+/* about starts */
+.about1
+{
+    text-align: center;
+}
+.about-img img
+{
+    /* height: 300px;
+    width: 200px;
+    box-sizing: border-box; */
+    width: 100%;
+    /* max-width: 500px; */
+ }
+ /* .about-li
+ {
+   display: inline-block;
+ }
+ .about-div
+ {
+     display: inline-block;
+ } */
+ .aboutss
+ {
+     position: relative;
+ }
+ .aboutss1
+ {
+     /* border: 1px solid red; */
+     width: 500px;
+     display: inline-block;
+     position: absolute;
+     margin-left: 100px;
+ }
+ .about-img img{
+     /* margin:20px ;
+     padding: 20px;
+      */
+      margin-left: 50px;
+      margin-top: 20px;
+ }
+ .about-img,.aboutss1{
+     display: inline-block;
+     width: 550px;
+     height: auto;
+ }
+/* .icon,.about-div h5
+{
+    display: inline-block;
+} */
+.about-div p
+{
+    width: 300px;
+}
+/* .about-li
+{
+    display: inline-block;
+    /* border: 1px solid red; */
+/* }  */
+.about-li h5
+{
+    display: inline-block;
+}
+.about-li i{
+    margin-left: 0px;
+    color: #3498db;
+    border:solid 1px white ;
+    border-radius: 100%;
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 0px;
+}
+.about-li h5,p
+{
+    margin: 0px;
+}
+.about-li p{
+    margin-left: 67px;
+}
+.about{
+    background-color: whitesmoke;
+}
+.about-btn
+{
+    color: hsl(204, 78%, 48%);
+    padding: 8px;
+    border-radius: 20px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ 
+/* about ends */
+
+
+.div1
+{
+    width: 300px;
+    height: 5px;
+    background-color: #3498db;
+}
+.span1
+{
+    display: inline-block;
+}
+.emoji1
+{
+    margin: 10px;
+    /* border: 1px solid red; */
+    width: 250px;
+    height: 150px;
+    /* padding: 20px; */
+    /* padding-left: 180px; */
+    justify-content: center;
+    background-color:rgba(195, 241, 241, 0.418);
+    /* padding-top: 0; */
+    position: relative;
+    /* transform: translateX(50%); */
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.emoji1 .span1{
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 100px;
+}
+.emoji1 p
+{
+    text-align: center;
+    padding-top: 5px;
+}
+.emoji1 i
+{
+    /* border-radius: 100%; */
+    font-size: 30px;
+    color:white;
+    /* padding-bottom: 20px; */
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    border-radius: 30px;
+    border: 5px solid blue;
+    background:blue;
+    box-shadow: 0 0px 10px 10px;
+}
+.per 
+{
+    background-color: white;
+}
+
+.details
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    }
+.bar 
+{
+    position: relative;
+    border: 2px solid #0d96e0;
+    background-repeat: 20px;
+}
+.bar div{
+    position: relative;
+    width:0 ;
+    height: 9px;
+    /* border-radius: 10px; */
+    background-color: #0d96e0;
+}
+.skills:not(:last-child)
+{
+    margin-bottom: 30px;
+    /* margin-right: 40px; */
+    /* margin: 50px;px */
+}
+#html-bar
+{
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill
+{
+    100%{
+        width: 100%;
+    }
+}
+
+#css-bar
+{
+  animation: css-fill 2s forwards;
+}
+@keyframes css-fill
+{
+    100%{
+        width: 90%;
+    }
+}
+#php-bar
+{
+  animation: php-fill 2s forwards;
+}
+@keyframes php-fill
+{
+    100%{
+        width: 80%;
+    }
+}
+#wordpress-bar
+{
+  animation: wordpress-fill 2s forwards;
+}
+@keyframes wordpress-fill
+{
+    100%{
+        width: 90%;
+    }
+}
+
+#javascrift-bar
+{
+  animation: javascrift-fill 2s forwards;
+}
+@keyframes javascrift-fill
+{
+    100%{
+        width: 80%;
+    }
+}
+#photoshop-bar
+{
+  animation: photoshop-fill 2s forwards;
+}
+@keyframes photoshop-fill
+{
+    100%{
+        width: 80%;
+    }
+}
+
+.div11
+{
+    width: 500px;
+    height: auto;
+    margin-right: 30px;
+    margin-left: 60px;
+}
+.div2
+{
+    width: 500px;
+    height: auto;
+    /* display: inline-block; */
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.skill1
+{
+    margin: 30px;
+    /* margin-right: 40px; */
+}
+
+.div11,.div2,.div3{
+    display:inline-block ;
+}
+.skill1
+{
+    background-color: rgba(255, 255, 255, 0.788);
+    height: 250px;
+    margin: 0;
+}
+
+/* logo starts */
+.logos
+{
+    background-color: rgb(222, 240, 247);
+}
+
+.logo-image
+{
+    width: 173px;
+    height: 85px;
+    display: inline-block;
+}
+
+.logo-image img
+{
+    width: 45%;
+    height:45%;
+    margin: 25px 45px;
+    /* margin-left: 50px; */
+    /* filter: grayscale(100%); */
+    /* transition: all 0.4s ease-in-out; */
+    /* background-size: 100%; */
+    /* transition: 1s; */
+    /* cursor: zoom-in; */
+}
+
+.logo-image img:hover
+{
+    /* filter:none ; */
+    /* transition: all 0.4s ease-in-out; */
+    /* transform:all 0.8s; */
+    /* background-size: 150%; */
+    transition: all 0.5s;
+}
+/
+/* logo ends */
+
+
+.services1
+{
+    margin: 50px;
+    background-color: white;
+}
+.sumacard
+{
+    background-color: #fff;
+}
+
+.services-cards1 .cards1
+{
+    height: 220px;
+    width: 250px;
+    padding: 20px;
+    display: inline-block;
+    background-color: whitesmoke;
+    margin-left: 40px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 40px 20px rgba(128, 128, 128, 0.137);
+    position: relative;
+    transition: background-color 1s;
+    margin-bottom: 20px;
+}
+
+.cards1 .card-content1 i
+{
+    font-size: 35px;
+    padding: 15px;
+    color: rgb(52, 152, 219);
+    border: 1px solid none;
+    background-color:azure;
+    text-align: center;
+}
+
+.cards1 .card-content1 h3
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.services-cards1 .cards1:hover i
+{
+
+    color:#0d96e0;
+    /* border-color: #0d96e0; */
+    border: 1px solid #0d96e0;
+}
+
+.div-hover1
+{
+    
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: all .5s;
+    
+}
+
+/* .services-cards1 .cards1:hover .div-hover1
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    
+} */
+/* .services-cards1 .cards1:hover
+{
+    /* background-color:#3498db; */
+    /* color: white; */
+    /* border-color: rgb(52, 152, 219);
+} */ 
+.services-cards1 .cards1:hover h3
+{
+    color: #0d96e0;
+}
+
+
+     /* portfolio starts */
+     .port1
+     {
+
+     }
+     .port2
+     {
+         text-align: center;
+         /* padding: 8px; */
+         /* border: 1px solid blue; */
+     }
+     .port1 p
+     {
+         margin-top: 30px;
+         margin-bottom: 30px;
+     }
+     .port3
+     {
+         /* border: 1px solid #3498db; */
+         padding: 10px;
+         margin-left: 20px;
+         border-radius: 5px;
+         border: none;
+        
+     }
+     .port3:hover
+     {
+         color: white;
+         background-color:#3498db ;
+     }
+
+     .port4
+    {
+       border-radius: 10px;
+        height: 500px;
+        width: 500px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .parent
+{
+    /* border: 2px solid purple; */
+    width: 350px;
+    height: 350px;
+    position: relative;
+    /* margin: 0px; */
+    margin-left: 30px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.parent img
+{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    /* transform: scale(1.1); */
+}
+
+.child
+{
+    background-color: gray;
+    height: 0px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    transition: visibility 2s;
+    /* transition: height 2s; */
+    visibility: hidden;
+    opacity: 0.5;
+}
+.parent:hover .child
+{
+    height: 100%;
+    visibility: visible;
+    
+}
+
+.parent:hover img
+{
+    /* transform: translate(0px,-40px); */
+    transform: scale(1.5);
+
+
+}
+.child h1
+{
+   text-align: left;
+   margin-top: 140px;
+   color: white;
+}
+.child p{
+    text-align: left;
+    /* margin-top: 160px; */
+    margin-bottom: 20px;
+}
+.mainparent
+{
+    display: inline-block;
+}
+.parent{
+    display: inline-block;
+}
+.child .i1,.i2
+{
+    text-align: left;
+    font-size: 20px;
+    /* color: #3498db; */
+    color: white;
+
+
+}
+
+
+
+    .read-more h2
+    {
+        text-align: center;
+    }
+
+    .p1
+    {
+        background-image: url("https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-1.jpg");
+    }
+
+    .p2
+    {
+        background-image: url("https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-2.jpg");
+    }
+    .p11
+    {
+        background-color: white;
+        margin-top: 20px;
+       margin-bottom: 20px;
+       margin-left: 20px;
+       margin-right: 20px;
+       /* border: 6px solid red ; */
+       padding: 150px;
+    }
+    .p11:hover
+    {
+        background-color: #3498db;
+        color: white;
+    }
+
+
+     /* portfolio ends */
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+.parent
+{
+    border: 2px solid purple;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.parent img
+{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    /* transform: scale(1.1); */
+}
+
+.child
+{
+    background-color: gainsboro;
+    height: 0px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    transition: visibility 2s;
+    /* transition: height 2s; */
+    visibility: hidden;
+    opacity: 0.5;
+}
+.parent:hover .child
+{
+    height: 100%;
+    visibility: visible;
+    
+}
+
+.parent:hover img
+{
+    /* transform: translate(0px,-40px); */
+    transform: scale(1.5);
+
+
+}
+.child h1
+{
+   text-align: left;
+   margin-top: 140px;
+}
+.child p{
+    text-align: left;
+    /* margin-top: 160px; */
+    margin-bottom: 20px;
+}

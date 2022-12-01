@@ -1,0 +1,9 @@
+p{color: brown;}
+body
+{
+    color: red;
+    background-image:linear-gradient(rgba(105, 55, 55, 0.4),rgba(36, 73, 36, 0.7),rgba(0,0,255,0.3)),url("./1st\ pic.jfif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

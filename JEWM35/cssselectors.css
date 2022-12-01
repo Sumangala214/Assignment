@@ -1,0 +1,58 @@
+/* group selectors */
+/* p,h1,hr,input,a
+{
+    color: blue;
+    background-color: brown;
+    border-radius: 50px 50px;
+} */
+/* p.jsp
+{
+    color: blue;
+    background-color: brown;
+    border: 3px solid purple;
+    border-radius: 50px 50px;
+
+}
+.qsp
+{
+    color: blue;
+    background-color: brown;
+    border: 3px solid purple;
+    border-radius: 50px 50px;
+
+}
+#gec
+{
+    color:pink ;
+    background-color:grey;
+} */
+*
+{
+    color: aqua;
+}
+input[name]
+{
+    border: 3px red solid;
+}
+input[type=password]
+{
+    border-radius: 100%;
+    border-color: blueviolet;
+}
+div p
+{
+    color: brown;
+}
+div>p
+{
+  background-color: bisque;
+}
+div~p
+{
+    border: 5px red solid;
+}
+div+p
+{
+    border: 4px yellow solid;
+    border-radius: 100%;
+}
